@@ -1,0 +1,68 @@
+//For the series: 36, 34, 30, 28, 24, …
+
+let number=36
+
+
+function createSeries(n){
+    
+    
+    let series=[]
+    
+    while(n>=0){
+        
+        series.push(n)
+        n=n-2;
+        
+       if(n>=0){
+           series.push(n)
+        n=n-4 
+       }
+        
+    }
+    return series
+}
+
+
+console.log(createSeries(number))
+----------------------------------------------------------------------------------------------------------------------------
+//input=6428001
+//output=0012468
+
+let string="64280011"
+
+        //   console.log( string.split("").sort().join(""))
+
+function ascendingNumber(string){
+    
+    let str=string.split("")
+
+    for(let i=0;i<=str.length;i++){
+        for(let j=i+1;j<=str.length-1;j++){
+            if(str[i]>str[j]){
+                let temp =str[i]
+                str[i]=str[j]
+                str[j]=temp
+            }
+        }
+       
+    }
+    
+    return str.join("")
+    
+    
+}
+console.log(ascendingNumber(string))
+-----------------------------------------------------------------------------------------------------------------------
+//1,2,X,4,Y,X,7,8,X,Y,11,X,13,14,XY,16,17,XY,19,20,X,22,23,XY,......
+
+let array = [1, 2, 'X', 4, 'Y', 'X', 7, 8, 'X', 'Y', 11, 'X', 13, 14, 'XY', 16, 17, 'XY', 19, 20, 'X', 22, 23, 'XY'];
+
+let sliceLength=5
+function sliceFunc(arr,len){
+   
+   let result=arr.slice(0,len)
+   return result
+    
+    
+}
+console.log(sliceFunc(array,sliceLength))

@@ -1,0 +1,64 @@
+{
+    "Questions": [
+      {
+        "question": "What is the capital city of Australia?",
+        "options": ["Sydney", "Melbourne", "Canberra", "Perth"],
+        "correct_answer": "Canberra",
+        "answered_option":""
+      },
+      {
+        "question": "Who wrote the play 'Romeo and Juliet'?",
+        "options": ["Charles Dickens", "William Shakespeare", "Jane Austen", "Mark Twain"],
+        "correct_answer": "William Shakespeare",
+        "answered_option":""
+      },
+      {
+        "question": "What is the largest planet in our solar system?",
+        "options": ["Venus", "Mars", "Saturn", "Jupiter"],
+        "correct_answer": "Jupiter",
+        "answered_option":""
+      },
+      {
+        "question": "USA declare its independence in Which year?",
+        "options": ["1776", "1789", "1801", "1756"],
+        "correct_answer": "1776",
+        "answered_option":""
+      },
+      {
+        "question": "What is the currency of Japan?",
+        "options": ["Chinese Yuan", "Korean Won", "Japanese Yen", "Thai Baht"],
+        "correct_answer": "Japanese Yen",
+        "answered_option":""
+      },
+      {
+        "question": "What is the capital of France?",
+        "options": ["Berlin", "London", "Paris", "Madrid"],
+        "correct_answer": "Paris",
+        "answered_option":""
+      },
+      {
+        "question": "Which planet is known as the Red Planet?",
+        "options": ["Venus", "Mars", "Jupiter", "Saturn"],
+        "correct_answer": "Mars",
+        "answered_option":""
+      },
+      {
+        "question": "Who wrote 'Romeo and Juliet'?",
+        "options": ["Charles Dickens", "William Shakespeare", "Jane Austen", "Mark Twain"],
+        "correct_answer": "William Shakespeare",
+        "answered_option":""
+      },
+      {
+        "question": "What is the largest mammal in the world?",
+        "options": ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"],
+        "correct_answer": "Blue Whale",
+        "answered_option":""
+      },
+      {
+        "question": "What is the Capital of India?",
+        "options": ["Berlin", "Tokyo", "Dhaka", "New Delhi"],
+        "correct_answer": "New Delhi",
+        "answered_option":""
+      }
+    ]
+  }

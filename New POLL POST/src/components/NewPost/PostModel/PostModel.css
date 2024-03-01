@@ -1,0 +1,17 @@
+.postModelContainer {
+    background-color: white;
+    margin: 10px auto;
+    width: 50%;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .postModelTitle {
+    margin-bottom: 20px;
+  }
+  
+  .postModelContent {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  

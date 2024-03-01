@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Profile",
+
+    "icon": "profile",
+    "subMenu": [
+      {
+        "name": "MyProfile",
+        "path": "/myProfile"
+      },
+      {
+        "name": "EditProfile",
+        "path": "/editProfile"
+      },
+      {
+        "name": "Settings",
+        "path": "/setting"
+      }
+    ]
+  },
+  {
+    "name": "Dashboard",
+    "path": "/",
+    "icon": "dashboard"
+  },
+
+  {
+    "name": "Component",
+
+    "icon": "component",
+    "subMenu": [
+      {
+        "name": "Buttons",
+        "path": "/buttons"
+      },
+      {
+        "name": "GridSystem",
+        "path": "/gridSystem"
+      },
+      {
+        "name": "Panels",
+        "path": "/panels"
+      }
+    ]
+  },
+  {
+    "name": "Forms",
+
+    "icon": "forms",
+    "subMenu": [
+      {
+        "name": "ExtendedForms",
+        "path": "/extendedForms"
+      },
+      {
+        "name": "RegularForms",
+        "path": "/regularFroms"
+      }
+    ]
+  },
+  {
+    "name": "Table",
+
+    "icon": "table",
+    "subMenu": [
+      {
+        "name": "ExtendedTables",
+        "path": "/extendedTables"
+      },
+      {
+        "name": "ReactTables",
+        "path": "/reactTables"
+      },
+      {
+        "name": "RegularTables",
+        "path": "/regularTables"
+      }
+    ]
+  },
+  {
+    "name": "Maps",
+    "icon": "maps",
+    "subMenu": [
+      {
+        "name": "Maps",
+        "path": "/maps"
+      }
+    ]
+  }
+]

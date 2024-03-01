@@ -1,0 +1,52 @@
+[
+    {
+      "name": "Home",
+      "path": "/",
+      "icon": "home"
+    },
+    {
+      "name": "Profile",
+      "path":"/profile",
+      "icon":"profile",
+      "subMenu": [
+        {
+          "name": "ViewProfile",
+          "path": "profile/viewProfile"
+        },
+        {
+          "name": "EditProfile",
+          "path": "profile/editProfile"
+        }
+      ]
+    },
+    {
+      "name": "Account",
+      "path":"/account",
+      "icon":"account",
+      "subMenu": [
+        {
+          "name": "Permissions",
+          "path": "account/permission"
+        },
+        {
+          "name": "Settings",
+          "path": "account/setting"
+        }
+      ]
+    },
+    {
+      "name": "Users",
+      "path":"/users",
+      "icon":"users",
+      "subMenu": [
+        {
+          "name": "AddUsers",
+          "path": "users/addUser"
+        },
+        {
+          "name": "EditUser",
+          "path": "users/editUser"
+        }
+      ]
+    }
+  ]
